@@ -217,16 +217,11 @@ html.dark .icon--moon { display: block; }
 html.dark .icon--sun  { display: none; }
 
 /* Lucide font icon sizing */
-i[class*="lucide-"] {
-  font-style: normal;
-  line-height: 1;
-}
-
-.theme-toggle i[class*="lucide-"] {
+.theme-toggle i[class*="icon-"] {
   font-size: 1.125rem; /* 18px — matches previous SVG size */
 }
 
-.btn i[class*="lucide-"] {
+.btn i[class*="icon-"] {
   font-size: 1rem; /* 16px — matches previous SVG size */
 }
 
