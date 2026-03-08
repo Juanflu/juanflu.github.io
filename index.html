@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Flores — Engineering Leader</title>
+  <meta name="description" content="Juan Flores is an engineering leader based in Barcelona, Spain, with 10+ years of experience in software development. Currently Engineering Manager at SCRM - Lidl International Hub." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://juanflores.me/" />
+  <meta property="og:title" content="Juan Flores — Engineering Leader" />
+  <meta property="og:description" content="Engineering leader based in Barcelona, Spain with 10+ years of experience building software and leading teams." />
+  <meta property="og:site_name" content="Juan Flores" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Juan Flores — Engineering Leader" />
+  <meta name="twitter:description" content="Engineering leader based in Barcelona, Spain with 10+ years of experience building software and leading teams." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://juanflores.me/" />
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="#hero" class="nav__logo" aria-label="Juan Flores — home">Juan Flores</a>
+
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav__links" id="nav-menu" role="list">
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#certifications" class="nav__link">Skills</a></li>
+        <li>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <svg class="icon icon--sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+            <svg class="icon icon--moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========== HERO / ABOUT ========== -->
+    <section id="hero" class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <div class="hero__content fade-in">
+          <p class="hero__eyebrow">Barcelona, Spain</p>
+          <h1 id="hero-heading" class="hero__name">Juan Flores</h1>
+          <p class="hero__title">Engineering Leader</p>
+          <p class="hero__bio">
+            Passionate about building great software and the people who build it.
+            With over 10 years of experience across the full software development lifecycle,
+            I currently lead engineering teams at
+            <strong>SCRM&nbsp;&ndash;&nbsp;Lidl International Hub</strong>,
+            the Schwarz Group's tech hub in Barcelona &mdash;
+            driving technical strategy, team growth, and product delivery at scale.
+          </p>
+          <div class="hero__links" role="list">
+            <a href="https://www.linkedin.com/in/jfseoane/" class="btn btn--outline" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Juan Flores on LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://github.com/juanflu" class="btn btn--outline" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Juan Flores on GitHub">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="section__title fade-in">Projects</h2>
+        <p class="section__subtitle fade-in">A selection of things I've built or contributed to.</p>
+
+        <div class="projects-grid">
+
+          <article class="card fade-in" aria-labelledby="project-1-title">
+            <div class="card__body">
+              <h3 id="project-1-title" class="card__title">Project Alpha</h3>
+              <p class="card__desc">
+                A developer platform that streamlines CI/CD pipelines and infrastructure provisioning.
+                Built for internal teams to ship faster with less friction.
+              </p>
+              <ul class="tags" aria-label="Technologies used">
+                <li class="tag">Go</li>
+                <li class="tag">Kubernetes</li>
+                <li class="tag">TypeScript</li>
+              </ul>
+            </div>
+            <div class="card__footer">
+              <a href="#" class="btn btn--sm btn--ghost" aria-label="View Project Alpha">View project &rarr;</a>
+            </div>
+          </article>
+
+          <article class="card fade-in" aria-labelledby="project-2-title">
+            <div class="card__body">
+              <h3 id="project-2-title" class="card__title">Project Beta</h3>
+              <p class="card__desc">
+                A data-driven dashboard for operational metrics, offering real-time insights
+                across distributed services with a focus on reliability.
+              </p>
+              <ul class="tags" aria-label="Technologies used">
+                <li class="tag">React</li>
+                <li class="tag">Python</li>
+                <li class="tag">PostgreSQL</li>
+              </ul>
+            </div>
+            <div class="card__footer">
+              <a href="#" class="btn btn--sm btn--ghost" aria-label="View Project Beta">View project &rarr;</a>
+            </div>
+          </article>
+
+          <article class="card fade-in" aria-labelledby="project-3-title">
+            <div class="card__body">
+              <h3 id="project-3-title" class="card__title">Project Gamma</h3>
+              <p class="card__desc">
+                An AI-assisted toolchain for engineering teams to surface context-aware
+                suggestions during code review and planning workflows.
+              </p>
+              <ul class="tags" aria-label="Technologies used">
+                <li class="tag">TypeScript</li>
+                <li class="tag">LLMs</li>
+                <li class="tag">Azure</li>
+              </ul>
+            </div>
+            <div class="card__footer">
+              <a href="#" class="btn btn--sm btn--ghost" aria-label="View Project Gamma">View project &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience" class="section" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 id="experience-heading" class="section__title fade-in">Experience</h2>
+
+        <ol class="timeline" reversed aria-label="Work history">
+
+          <li class="timeline__item fade-in">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <h3 class="timeline__role">Engineering Manager &amp; Tech Lead</h3>
+                <span class="timeline__badge">Current</span>
+              </div>
+              <p class="timeline__company">SCRM &ndash; Lidl International Hub</p>
+              <time class="timeline__period" datetime="2020">2020 &ndash; Present</time>
+              <p class="timeline__desc">
+                Leading cross-functional engineering teams at the Schwarz Group's technology hub in Barcelona.
+                Responsible for technical direction, hiring, team health, and delivery across multiple product areas.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item fade-in">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <h3 class="timeline__role">Senior Software Engineer</h3>
+              </div>
+              <p class="timeline__company">[Company] &mdash; <em>to be filled</em></p>
+              <time class="timeline__period">20XX &ndash; 20XX</time>
+              <p class="timeline__desc">
+                Placeholder for previous senior engineering role.
+              </p>
+            </div>
+          </li>
+
+          <li class="timeline__item fade-in">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <div class="timeline__header">
+                <h3 class="timeline__role">Software Engineer</h3>
+              </div>
+              <p class="timeline__company">[Company] &mdash; <em>to be filled</em></p>
+              <time class="timeline__period">20XX &ndash; 20XX</time>
+              <p class="timeline__desc">
+                Placeholder for earlier software engineering role.
+              </p>
+            </div>
+          </li>
+
+        </ol>
+      </div>
+    </section>
+
+    <!-- ========== CERTIFICATIONS / SKILLS ========== -->
+    <section id="certifications" class="section" aria-labelledby="certs-heading">
+      <div class="container">
+        <h2 id="certs-heading" class="section__title fade-in">Certifications &amp; Skills</h2>
+
+        <div class="certs-grid fade-in">
+          <div>
+            <h3 class="certs__subtitle">Certifications</h3>
+            <ul class="certs-list" role="list">
+              <li class="cert-item">
+                <div class="cert-item__info">
+                  <span class="cert-item__name">Claude Code in Action</span>
+                  <span class="cert-item__issuer">Anthropic</span>
+                </div>
+                <time class="cert-item__date">Feb 2026</time>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item__info">
+                  <span class="cert-item__name">Agent Skills with Anthropic</span>
+                  <span class="cert-item__issuer">DeepLearning.AI</span>
+                </div>
+                <time class="cert-item__date">Feb 2026</time>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item__info">
+                  <span class="cert-item__name">Certified STACKIT Cloud Engineer</span>
+                  <span class="cert-item__issuer">STACKIT</span>
+                </div>
+                <time class="cert-item__date">Jun 2025</time>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item__info">
+                  <span class="cert-item__name">Google Project Management</span>
+                  <span class="cert-item__issuer">Google</span>
+                </div>
+                <time class="cert-item__date">Sep 2021</time>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item__info">
+                  <span class="cert-item__name">Microsoft Certified: Azure Fundamentals</span>
+                  <span class="cert-item__issuer">Microsoft</span>
+                </div>
+                <time class="cert-item__date">Mar 2021</time>
+              </li>
+              <li class="cert-item">
+                <div class="cert-item__info">
+                  <span class="cert-item__name">Zend Certified Engineer</span>
+                  <span class="cert-item__issuer">Zend</span>
+                </div>
+                <time class="cert-item__date">Jun 2012</time>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="certs__subtitle">Languages</h3>
+            <ul class="lang-list" role="list">
+              <li class="lang-item">
+                <span class="lang-item__name">English</span>
+                <span class="lang-item__level">C1 Advanced</span>
+              </li>
+              <li class="lang-item">
+                <span class="lang-item__name">Spanish</span>
+                <span class="lang-item__level">Native</span>
+              </li>
+              <li class="lang-item">
+                <span class="lang-item__name">Galician</span>
+                <span class="lang-item__level">Native</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="year"></span> Juan Flores</p>
+      <a href="https://www.linkedin.com/in/jfseoane/" class="footer__link" target="_blank" rel="noopener noreferrer" aria-label="Juan Flores on LinkedIn">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
