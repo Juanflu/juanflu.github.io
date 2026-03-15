@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timón App — Juan Flores</title>
+  <meta name="description"
+    content="Timón App is a mobile exam simulator for Spanish nautical licenses — PNB, PER, Patrón de Yate, Capitán de Yate." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Timón App — Juan Flores" />
+  <meta property="og:description"
+    content="A mobile exam simulator for Spanish nautical licenses, built with React Native and Expo." />
+  <meta property="og:site_name" content="Juan Flores" />
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide icon font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="index.html" class="nav__logo" aria-label="Juan Flores — home">Juan Flores</a>
+
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav__links" id="nav-menu" role="list">
+        <li><a href="index.html#projects" class="nav__link">Projects</a></li>
+        <li><a href="index.html#experience" class="nav__link">Experience</a></li>
+        <li><a href="index.html#certifications" class="nav__link">Skills</a></li>
+        <li>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <i class="icon icon--sun icon-sun" aria-hidden="true"></i>
+            <i class="icon icon--moon icon-moon" aria-hidden="true"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ========== PROJECT HERO ========== -->
+    <section class="hero" aria-labelledby="project-heading">
+      <div class="container">
+        <div class="hero__content fade-in">
+          <a href="index.html#projects" class="project__back" aria-label="Back to projects">
+            <i class="icon-arrow-left" aria-hidden="true"></i>
+            Back to projects
+          </a>
+          <p class="hero__eyebrow">Personal project &mdash; 2026</p>
+          <h1 id="project-heading" class="hero__name">Timón App</h1>
+          <p class="hero__title">Nautical exam simulator for iOS &amp; Android</p>
+          <ul class="tags hero__tags" aria-label="Technologies used">
+            <li class="tag">React Native</li>
+            <li class="tag">Expo</li>
+            <li class="tag">TypeScript</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== OVERVIEW ========== -->
+    <section class="section" aria-labelledby="overview-heading">
+      <div class="container">
+        <h2 id="overview-heading" class="section__title fade-in">Overview</h2>
+        <div class="project__prose fade-in">
+          <p>
+            Timón App is a mobile exam simulator for aspiring sailors preparing for official Spanish nautical licenses —
+            <strong>PNB</strong>, <strong>PER</strong>, <strong>Patrón de Yate</strong>, and <strong>Capitán de
+              Yate</strong>.
+          </p>
+          <p>
+            The app covers the full official question bank for each license, letting users practice at their own pace
+            or run timed exam simulations that mirror the real test conditions. Results are scored instantly, and
+            progress is tracked across sessions so users can focus on areas where they need the most improvement.
+          </p>
+          <p>
+            I built this to scratch my own itch — I was studying for a nautical license and found the existing
+            tools either outdated or cumbersome. It also gave me a good excuse to go deep on React Native and Expo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FEATURES ========== -->
+    <section class="section" aria-labelledby="features-heading">
+      <div class="container">
+        <h2 id="features-heading" class="section__title fade-in">Features</h2>
+        <ul class="project__features fade-in" aria-label="Key features">
+          <li class="project__feature">
+            <span class="project__feature-icon" aria-hidden="true"><i class="icon-book-open"></i></span>
+            <div>
+              <strong>Full official question bank</strong>
+              <p>All questions from the official DGM exam bank for PNB, PER, Patrón de Yate, and Capitán de Yate.</p>
+            </div>
+          </li>
+          <li class="project__feature">
+            <span class="project__feature-icon" aria-hidden="true"><i class="icon-timer"></i></span>
+            <div>
+              <strong>Timed exam simulations</strong>
+              <p>Simulates real exam conditions with time limits, question count, and a final score matching official
+                criteria.</p>
+            </div>
+          </li>
+          <li class="project__feature">
+            <span class="project__feature-icon" aria-hidden="true"><i class="icon-bar-chart-2"></i></span>
+            <div>
+              <strong>Progress tracking</strong>
+              <p>Per-topic success rates and session history help users identify weak areas and measure improvement over
+                time.</p>
+            </div>
+          </li>
+          <li class="project__feature">
+            <span class="project__feature-icon" aria-hidden="true"><i class="icon-layers"></i></span>
+            <div>
+              <strong>Practice mode</strong>
+              <p>Untimed practice with immediate answer feedback and explanations, ideal for learning unfamiliar topics.
+              </p>
+            </div>
+          </li>
+          <li class="project__feature">
+            <span class="project__feature-icon" aria-hidden="true"><i class="icon-wifi-off"></i></span>
+            <div>
+              <strong>Offline-first</strong>
+              <p>The entire question bank is bundled with the app — no internet connection required to study or take
+                exams.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== TECH STACK ========== -->
+    <section class="section" aria-labelledby="tech-heading">
+      <div class="container">
+        <h2 id="tech-heading" class="section__title fade-in">Tech stack</h2>
+        <dl class="project__stack fade-in">
+          <div class="project__stack-row">
+            <dt>Framework</dt>
+            <dd>React Native with Expo (managed workflow, SDK 55)</dd>
+          </div>
+          <div class="project__stack-row">
+            <dt>Language</dt>
+            <dd>TypeScript throughout (strict mode)</dd>
+          </div>
+          <div class="project__stack-row">
+            <dt>Navigation</dt>
+            <dd>Expo Router (file-based routing)</dd>
+          </div>
+          <div class="project__stack-row">
+            <dt>State</dt>
+            <dd>React Context — ResultsContext for test history, SubscriptionContext for RevenueCat</dd>
+          </div>
+          <div class="project__stack-row">
+            <dt>Storage</dt>
+            <dd>AsyncStorage for persisting test history</dd>
+          </div>
+          <div class="project__stack-row">
+            <dt>Distribution</dt>
+            <dd>EAS Build &amp; Submit for App Store and Google Play</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="year"></span> Juan Flores</p>
+      <nav class="footer__links" aria-label="Social links">
+        <a href="https://www.linkedin.com/in/jfseoane/" class="footer__link" target="_blank" rel="noopener noreferrer"
+          aria-label="Juan Flores on LinkedIn">LinkedIn</a>
+        <a href="https://github.com/juanflu" class="footer__link" target="_blank" rel="noopener noreferrer"
+          aria-label="Juan Flores on GitHub">GitHub</a>
+        <a href="mailto:jfseoane@gmail.com" class="footer__link" aria-label="Send email to Juan Flores">Mail</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
