@@ -649,6 +649,11 @@ html.dark .icon--sun  { display: none; }
   color: var(--color-text-muted);
 }
 
+.footer__links {
+  display: flex;
+  gap: 3rem;
+}
+
 .footer__link {
   font-size: 0.875rem;
   font-weight: 500;
