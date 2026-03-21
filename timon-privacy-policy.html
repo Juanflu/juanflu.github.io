@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de privacidad · Privacy Policy — Timón</title>
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Lucide icon font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .legal-section {
+      padding-block: var(--space-16);
+    }
+    .legal-back {
+      margin-bottom: var(--space-10);
+    }
+    .legal-lang {
+      display: inline-block;
+      font-size: 0.6875rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-sm);
+      padding: 2px var(--space-3);
+      margin-bottom: var(--space-5);
+    }
+    .legal-title {
+      font-size: clamp(1.5rem, 4vw, 2rem);
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      color: var(--color-text);
+      margin-bottom: var(--space-2);
+    }
+    .legal-meta {
+      font-size: 0.8125rem;
+      color: var(--color-text-muted);
+      margin-bottom: var(--space-10);
+    }
+    .legal-body h2 {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-top: var(--space-8);
+      margin-bottom: var(--space-3);
+      letter-spacing: -0.01em;
+    }
+    .legal-body p,
+    .legal-body li {
+      font-size: 0.9375rem;
+      color: var(--color-text-muted);
+      line-height: var(--line-height);
+    }
+    .legal-body ul {
+      list-style: disc;
+      padding-left: var(--space-6);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-2);
+      margin-top: var(--space-2);
+    }
+    .legal-body strong {
+      color: var(--color-text);
+      font-weight: 600;
+    }
+    .legal-divider {
+      border: none;
+      border-top: 1px solid var(--color-border);
+      margin: var(--space-16) 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a href="index.html" class="nav__logo" aria-label="Juan Flores — home">Juan Flores</a>
+
+      <button class="nav__hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav__links" id="nav-menu" role="list">
+        <li><a href="index.html#projects" class="nav__link">Projects</a></li>
+        <li><a href="index.html#experience" class="nav__link">Experience</a></li>
+        <li><a href="index.html#certifications" class="nav__link">Skills</a></li>
+        <li>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+            <i class="icon icon--sun icon-sun" aria-hidden="true"></i>
+            <i class="icon icon--moon icon-moon" aria-hidden="true"></i>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="legal-section">
+      <div class="container">
+
+        <div class="legal-back">
+          <a href="timon-app.html" class="project__back" aria-label="Back to Timón App">
+            <i class="icon-arrow-left" aria-hidden="true"></i>
+            Timón App
+          </a>
+        </div>
+
+        <div class="legal-body">
+
+          <!-- SPANISH -->
+          <div class="legal-lang">Español</div>
+          <h1 class="legal-title">Política de privacidad</h1>
+          <p class="legal-meta">Última actualización: 15 de marzo de 2026</p>
+
+          <h2>1. Quién somos</h2>
+          <p>
+            Timón es una aplicación móvil desarrollada por Juan Flores Seoane
+            (<a href="mailto:jfseoane@gmail.com">jfseoane@gmail.com</a>).
+            La aplicación permite simular exámenes oficiales de licencias náuticas españolas
+            (PNB, PER, Patrón de Yate, Capitán de Yate).
+          </p>
+
+          <h2>2. Datos que recopilamos</h2>
+          <p>Timón <strong>no crea cuentas de usuario</strong> ni recopila datos personales identificables.
+             Los únicos datos generados son:</p>
+          <ul>
+            <li><strong>Historial de tests:</strong> resultados de los exámenes realizados (puntuación, licencia, fecha).
+                Estos datos se almacenan <em>únicamente en tu dispositivo</em> mediante AsyncStorage y
+                nunca se envían a ningún servidor externo.</li>
+            <li><strong>Datos de compra/suscripción:</strong> si adquieres Timón Pro, la transacción es gestionada
+                por Apple App Store y RevenueCat. Consulta sus respectivas políticas de privacidad para más información.</li>
+          </ul>
+
+          <h2>3. Datos que NO recopilamos</h2>
+          <ul>
+            <li>Nombre, correo electrónico ni ningún otro dato de contacto.</li>
+            <li>Ubicación geográfica.</li>
+            <li>Identificadores publicitarios ni seguimiento entre aplicaciones.</li>
+            <li>Datos de uso enviados a servidores propios.</li>
+          </ul>
+
+          <h2>4. Servicios de terceros</h2>
+          <p>La aplicación integra los siguientes servicios de terceros que tienen sus propias políticas de privacidad:</p>
+          <ul>
+            <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat</a> — gestión de suscripciones y compras dentro de la aplicación.</li>
+            <li>Apple App Store — procesamiento de pagos.</li>
+          </ul>
+
+          <h2>5. Eliminación de datos</h2>
+          <p>
+            Puedes eliminar todo tu historial de tests desde la pantalla de Perfil dentro de la aplicación.
+            Al desinstalar la aplicación, todos los datos locales son eliminados automáticamente por el sistema operativo.
+          </p>
+
+          <h2>6. Privacidad de menores</h2>
+          <p>
+            Timón no está dirigida a menores de 13 años y no recopila conscientemente datos de menores.
+          </p>
+
+          <h2>7. Cambios en esta política</h2>
+          <p>
+            Si realizamos cambios relevantes, actualizaremos la fecha de esta página y, cuando sea posible,
+            notificaremos a los usuarios a través de una actualización de la aplicación.
+          </p>
+
+          <h2>8. Contacto</h2>
+          <p>
+            Si tienes alguna pregunta, puedes contactarnos en
+            <a href="mailto:jfseoane@gmail.com">jfseoane@gmail.com</a>.
+          </p>
+
+          <hr class="legal-divider" />
+
+          <!-- ENGLISH -->
+          <div class="legal-lang">English</div>
+          <h1 class="legal-title">Privacy Policy</h1>
+          <p class="legal-meta">Last updated: March 15, 2026</p>
+
+          <h2>1. Who we are</h2>
+          <p>
+            Timón is a mobile application developed by Juan Flores Seoane
+            (<a href="mailto:jfseoane@gmail.com">jfseoane@gmail.com</a>).
+            The app allows users to simulate official Spanish nautical license exams
+            (PNB, PER, Patrón de Yate, Capitán de Yate).
+          </p>
+
+          <h2>2. Data we collect</h2>
+          <p>Timón <strong>does not create user accounts</strong> and does not collect any personally identifiable information.
+             The only data generated is:</p>
+          <ul>
+            <li><strong>Test history:</strong> exam results (score, license type, date).
+                This data is stored <em>exclusively on your device</em> via AsyncStorage and
+                is never sent to any external server.</li>
+            <li><strong>Purchase/subscription data:</strong> if you purchase Timón Pro, the transaction is handled
+                by Apple App Store and RevenueCat. Please refer to their respective privacy policies for details.</li>
+          </ul>
+
+          <h2>3. Data we do NOT collect</h2>
+          <ul>
+            <li>Name, email address, or any other contact information.</li>
+            <li>Geographic location.</li>
+            <li>Advertising identifiers or cross-app tracking.</li>
+            <li>Usage data sent to our own servers.</li>
+          </ul>
+
+          <h2>4. Third-party services</h2>
+          <p>The app integrates the following third-party services which have their own privacy policies:</p>
+          <ul>
+            <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">RevenueCat</a> — subscription and in-app purchase management.</li>
+            <li>Apple App Store — payment processing.</li>
+          </ul>
+
+          <h2>5. Data deletion</h2>
+          <p>
+            You can delete your entire test history from the Profile screen within the app.
+            Uninstalling the app automatically removes all local data from your device.
+          </p>
+
+          <h2>6. Children's privacy</h2>
+          <p>
+            Timón is not directed at children under 13 and does not knowingly collect data from minors.
+          </p>
+
+          <h2>7. Changes to this policy</h2>
+          <p>
+            If we make material changes, we will update the date on this page and, where possible,
+            notify users through an app update.
+          </p>
+
+          <h2>8. Contact</h2>
+          <p>
+            If you have any questions, please contact us at
+            <a href="mailto:jfseoane@gmail.com">jfseoane@gmail.com</a>.
+          </p>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; <span id="year"></span> Juan Flores</p>
+      <nav class="footer__links" aria-label="Social links">
+        <a href="https://www.linkedin.com/in/jfseoane/" class="footer__link" target="_blank" rel="noopener noreferrer"
+          aria-label="Juan Flores on LinkedIn">LinkedIn</a>
+        <a href="https://github.com/juanflu" class="footer__link" target="_blank" rel="noopener noreferrer"
+          aria-label="Juan Flores on GitHub">GitHub</a>
+        <a href="mailto:jfseoane@gmail.com" class="footer__link" aria-label="Send email to Juan Flores">Mail</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
