@@ -383,6 +383,7 @@ html.dark .icon--sun  { display: none; }
 
 /* Card */
 .card {
+  position: relative;
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
@@ -390,6 +391,13 @@ html.dark .icon--sun  { display: none; }
   flex-direction: column;
   transition: border-color var(--transition), box-shadow var(--transition),
               transform var(--transition);
+}
+
+.card__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
 }
 
 .card:hover {
