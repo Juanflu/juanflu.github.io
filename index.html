@@ -21,17 +21,21 @@
   <!-- Canonical -->
   <link rel="canonical" href="https://juanflores.me/" />
 
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
   <!-- Google Font: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Lucide icon font -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@1.7.0/font/lucide.min.css" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
 
   <!-- ========== NAVIGATION ========== -->
   <header class="site-header" role="banner">
@@ -75,20 +79,26 @@
             the Schwarz Group's tech hub in Barcelona &mdash;
             driving technical strategy, team growth, and product delivery at scale.
           </p>
-          <div class="hero__links" role="list">
-            <a href="https://www.linkedin.com/in/jfseoane/" class="btn btn--outline" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Juan Flores on LinkedIn">
-              <i class="icon-linkedin" aria-hidden="true"></i>
-              LinkedIn
-            </a>
-            <a href="https://github.com/juanflu" class="btn btn--outline" target="_blank" rel="noopener noreferrer" role="listitem" aria-label="Juan Flores on GitHub">
-              <i class="icon-github" aria-hidden="true"></i>
-              GitHub
-            </a>
-            <a href="mailto:juanflo.dev@gmail.com" class="btn btn--outline" role="listitem" aria-label="Send email to Juan Flores">
-              <i class="icon-mail" aria-hidden="true"></i>
-              Email
-            </a>
-          </div>
+          <ul class="hero__links">
+            <li>
+              <a href="https://www.linkedin.com/in/jfseoane/" class="btn btn--outline" target="_blank" rel="noopener noreferrer" aria-label="Juan Flores on LinkedIn">
+                <i class="icon-linkedin" aria-hidden="true"></i>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/juanflu" class="btn btn--outline" target="_blank" rel="noopener noreferrer" aria-label="Juan Flores on GitHub">
+                <i class="icon-github" aria-hidden="true"></i>
+                GitHub
+              </a>
+            </li>
+            <li>
+              <a href="mailto:juanflo.dev@gmail.com" class="btn btn--outline" aria-label="Send email to Juan Flores">
+                <i class="icon-mail" aria-hidden="true"></i>
+                Email
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -189,7 +199,7 @@
                 <h3 class="timeline__role">Senior IT Consultant, Mentor &amp; .NET Community Lead</h3>
               </div>
               <p class="timeline__company">ERNI</p>
-              <time class="timeline__period">2019 &ndash; 2023</time>
+              <time class="timeline__period" datetime="2019/2023">2019 &ndash; 2023</time>
               <p class="timeline__desc">
                 Delivered .NET solutions for a medtech client across senior developer and tech lead roles, while also driving internal growth as .NET Community Lead — organizing workshops and knowledge-sharing initiatives — and mentoring up to five colleagues through career development, performance evaluation, and salary reviews.
               </p>
@@ -203,7 +213,7 @@
                 <h3 class="timeline__role">Software Engineer</h3>
               </div>
               <p class="timeline__company">Diebold Nixdorf for Inditex</p>
-              <time class="timeline__period">2014 &ndash; 2019</time>
+              <time class="timeline__period" datetime="2014/2019">2014 &ndash; 2019</time>
               <p class="timeline__desc">
                 Designed, developed and maintained an internal web app used by thousands of Inditex employees worldwide, built on a distributed architecture with replicated servers, web services and a relational database. 
                 Later expanded scope to lead deployments across multiple projects and own database design, while collaborating with HR to deliver two major initiatives now live in over 20 countries.

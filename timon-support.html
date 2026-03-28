@@ -6,81 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Soporte · Support — Timón</title>
 
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
   <!-- Google Font: Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 
   <!-- Lucide icon font -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@1.7.0/font/lucide.min.css" />
   <link rel="stylesheet" href="style.css" />
-
-  <style>
-    .legal-section {
-      padding-block: var(--space-16);
-    }
-    .legal-back {
-      margin-bottom: var(--space-10);
-    }
-    .legal-lang {
-      display: inline-block;
-      font-size: 0.6875rem;
-      font-weight: 700;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--color-text-muted);
-      border: 1px solid var(--color-border);
-      border-radius: var(--radius-sm);
-      padding: 2px var(--space-3);
-      margin-bottom: var(--space-5);
-    }
-    .legal-title {
-      font-size: clamp(1.5rem, 4vw, 2rem);
-      font-weight: 700;
-      letter-spacing: -0.03em;
-      color: var(--color-text);
-      margin-bottom: var(--space-2);
-    }
-    .legal-meta {
-      font-size: 0.8125rem;
-      color: var(--color-text-muted);
-      margin-bottom: var(--space-10);
-    }
-    .legal-body h2 {
-      font-size: 0.9375rem;
-      font-weight: 600;
-      color: var(--color-text);
-      margin-top: var(--space-8);
-      margin-bottom: var(--space-3);
-      letter-spacing: -0.01em;
-    }
-    .legal-body p,
-    .legal-body li {
-      font-size: 0.9375rem;
-      color: var(--color-text-muted);
-      line-height: var(--line-height);
-    }
-    .legal-body ul {
-      list-style: disc;
-      padding-left: var(--space-6);
-      display: flex;
-      flex-direction: column;
-      gap: var(--space-2);
-      margin-top: var(--space-2);
-    }
-    .legal-body strong {
-      color: var(--color-text);
-      font-weight: 600;
-    }
-    .legal-divider {
-      border: none;
-      border-top: 1px solid var(--color-border);
-      margin: var(--space-16) 0;
-    }
-  </style>
 </head>
 
 <body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
 
   <!-- ========== NAVIGATION ========== -->
   <header class="site-header" role="banner">
@@ -118,21 +58,23 @@
           </a>
         </div>
 
+        <h1 class="legal-title">Soporte &middot; Support</h1>
+
         <div class="legal-body">
 
           <!-- SPANISH -->
           <div class="legal-lang">Español</div>
-          <h1 class="legal-title">Soporte</h1>
+          <h2 class="legal-title">Soporte</h2>
           <p class="legal-meta">Bienvenido/a a la página de soporte de Timón, la app para preparar tus titulaciones náuticas.</p>
 
-          <h2>Contacto</h2>
+          <h3>Contacto</h3>
           <p>
             Si tienes alguna pregunta, problema técnico o sugerencia, escríbenos a:
             <a href="mailto:juanflo.dev@gmail.com">juanflo.dev@gmail.com</a>.
             Intentamos responder en menos de 48 horas.
           </p>
 
-          <h2>Preguntas frecuentes</h2>
+          <h3>Preguntas frecuentes</h3>
           <ul>
             <li><strong>¿Qué titulaciones incluye la app?</strong>
               Timón incluye tests para PNB (Patrón de Navegación Básica), PER (Patrón de Embarcación de Recreo),
@@ -150,17 +92,17 @@
 
           <!-- ENGLISH -->
           <div class="legal-lang">English</div>
-          <h1 class="legal-title">Support</h1>
+          <h2 class="legal-title">Support</h2>
           <p class="legal-meta">Welcome to the support page for Timón, the app to prepare for your Spanish nautical licenses.</p>
 
-          <h2>Contact</h2>
+          <h3>Contact</h3>
           <p>
             If you have any questions, technical issues, or suggestions, write to us at:
             <a href="mailto:juanflo.dev@gmail.com">juanflo.dev@gmail.com</a>.
             We try to respond within 48 hours.
           </p>
 
-          <h2>Frequently asked questions</h2>
+          <h3>Frequently asked questions</h3>
           <ul>
             <li><strong>Which licenses does the app include?</strong>
               Timón includes tests for PNB (Basic Navigation License), PER (Recreational Boat License),
