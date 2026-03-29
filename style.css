@@ -713,8 +713,16 @@ html.dark .icon--sun  { display: block; }
   font-size: 0.875rem;
 }
 
-.hero__tags {
+.hero__meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
   margin-top: var(--space-6);
+}
+
+.hero__tags {
+  margin: 0;
 }
 
 .project__prose {
