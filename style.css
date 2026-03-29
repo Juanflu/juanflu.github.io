@@ -236,12 +236,12 @@ ul, ol { list-style: none; }
 html.dark .icon--moon { display: block; }
 html.dark .icon--sun  { display: none; }
 
-/* Lucide font icon sizing */
-.theme-toggle i[class*="icon-"] {
+/* Font Awesome icon sizing */
+.theme-toggle i[class*="fa-"] {
   font-size: 1.125rem; /* 18px — matches previous SVG size */
 }
 
-.btn i[class*="icon-"] {
+.btn i[class*="fa-"] {
   font-size: 1rem; /* 16px — matches previous SVG size */
 }
 
