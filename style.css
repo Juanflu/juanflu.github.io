@@ -229,12 +229,12 @@ ul, ol { list-style: none; }
   background-color: var(--color-surface);
 }
 
-/* Show moon in light mode, sun in dark mode */
-.icon--moon { display: none; }
-.icon--sun  { display: block; }
+/* Show moon in light mode (click to go dark), sun in dark mode (click to go light) */
+.icon--moon { display: block; }
+.icon--sun  { display: none; }
 
-html.dark .icon--moon { display: block; }
-html.dark .icon--sun  { display: none; }
+html.dark .icon--moon { display: none; }
+html.dark .icon--sun  { display: block; }
 
 /* Font Awesome icon sizing */
 .theme-toggle i[class*="fa-"] {
